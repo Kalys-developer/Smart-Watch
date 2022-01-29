@@ -1,0 +1,400 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Ubuntu:wght@700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.Header{
+position: relative;
+width: 1600px;
+height: 900px;
+display: flex;
+
+}
+.nav{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    margin-left: 708px;
+    
+    
+}
+
+
+.nav>li{
+    
+    list-style-type: none;
+   margin-left: 70px;
+   width: 49px;
+height: 24px;
+left: 708.51px;
+
+
+}
+.nav>li>a{
+    
+position: absolute;
+justify-content: space-between;
+margin-top: 39px;
+font-family: "Roboto";
+font-weight: bold;
+font-size: 18px;
+line-height: 135%;
+color: black;
+text-decoration: none;
+}
+.nav-btn{
+width: 154px;
+height: 51px;
+background-color: blue;
+border-radius: 6px;
+padding: 15px 30px;
+margin-top: 24px;
+padding: 15,30px;
+
+
+}
+.nav-btn:hover {
+    
+}
+.logo-img{
+    position: absolute;
+    width: 869.1px;
+    height: 509.78px;
+    left: 733.1px;
+    top: 240.32px;
+    
+}
+.logo-img2{
+    position: absolute;
+width: 1600px;
+height: 900px;
+left: 0px;
+top: 0px;
+
+}
+.logo-img3{
+    position: absolute;
+width: 959.69px;
+height: 484.07px;
+left: 5px;
+top:2px;
+}
+.mein{
+position: absolute;
+width: 453.7px;
+height: 240px;
+left: 229.4px;
+top: 294.24px;
+font-family: Poppins;
+font-style: normal;
+font-weight: bold;
+font-size: 63px;
+line-height: 120%;
+}
+.mein-text{
+position: absolute;
+width: 456.54px;
+height: 72px;
+left: 232.4px;
+top: 550.24px;
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 150%;
+}
+.nav-btn1{
+    position: absolute;
+    width: 154px;
+    height: 49px;
+    top: 720px;
+    left: 232px;
+    background-color: blue;
+    border-radius: 6px;
+    transition: 05s;
+    color: chartreuse;
+}
+.nav-img{
+    position: absolute;
+    justify-content: center;
+    margin-left:440px;
+    margin-top:710px;
+    z-index: 1;
+    color:#6565EC;
+    
+
+    
+    
+}
+.nav-gal{
+    position: absolute;
+width: 153.98px;
+height: 50.99px;
+left: 416.4px;
+top:720px;
+border: 1px solid rgba(22, 23, 219, 0.2);
+box-sizing: border-box;
+border-radius: 6px;
+}
+.container{
+    position: relative;
+    text-align: center;
+    
+    
+}
+.sarvice{
+    
+    padding: 95px;
+    height: 61px;
+    font-size: 51px;
+    font-weight: bold;
+    line-height: 120%;
+    font-family: "poppins";
+    font-weight: 700;
+    color: black;
+}
+.service-text{
+    font-size: 16px;
+    font-family:"poppins";
+    width: 433px;
+    height: 52px;
+    margin-left: 540px;
+    font-weight: normal;
+    color: #01010D;;
+}
+.android{
+    position: absolute;
+width: 115.56px;
+height: 115.56px;
+left: 275.26px;
+top: 1200.83px;
+color: #E0E8E6;
+
+}
+.globus{
+    position: absolute;
+width: 115.56px;
+height: 115.56px;
+left: 275.26px;
+top: 1512.79px;
+color: #E0E8E6; 
+}
+.muzic{
+    position: absolute;
+    width: 115.56px;
+    height: 115.56px;
+    left: 275.26px;
+    top: 1812.05px;
+    color: #E0E8E6; 
+}
+.Battery{
+    position: absolute;
+width: 171px;
+height: 229.26px;
+left: 1143.51px;
+top: 1213.53px;
+}
+.settings{
+    position: absolute;
+width: 172px;
+height: 229.26px;
+left: 1143.01px;
+top: 1512.79px;
+}
+.messages{
+    position: absolute;
+width: 196px;
+height: 229.26px;
+left: 1131.11px;
+top: 1812.05px;
+}
+.wuoch{
+    position: absolute;
+width: 433.25px;
+height: 442.2px;
+left: 591.66px;
+top: 1406.06px;
+}
+.apple{
+    position: absolute;
+    width: 15.29px;
+    height: 18.64px;
+    left: 233.13px;
+    top: 2133.67px;
+}
+.apple-text{
+    position: absolute;
+width: 44px;
+height: 18px;
+left: 258.42px;
+top: 2134.31px;
+color: blue;
+text-transform: uppercase;
+font-size: 12px;
+font-family:"Poppins";
+
+}
+.product{
+    position: absolute;
+width: 583px;
+height: 61px;
+left: 232.32px;
+top: 2164.31px;
+font-family: "Poppins";
+font-style: normal;
+font-weight: bold;
+font-size: 51px;
+line-height: 120%;
+color: #01010D;
+}
+.product-text{
+    position: absolute;
+width: 485px;
+height: 72px;
+left: 233.32px;
+top: 2250.31px;
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 150%;
+color: #01010D;
+}
+.red-img{
+    position: absolute;
+width: 363.63px;
+height: 456.11px;
+left: 181.69px;
+top: 2392.31px;
+}
+.blue-img{
+    position: absolute;
+width: 363.63px;
+height: 456.11px;
+left: 593.33px;
+top: 2392.31px;
+}
+.ping-img{
+    position: absolute;
+width: 363.63px;
+height: 456.11px;
+left: 1004.96px;
+top: 2392.31px;
+}
+.plusic-img1{
+    position: absolute;
+width: 14px;
+height: 13.96px;
+left: 272.59px;
+top: 2737.31px;
+}
+.plusic-img2{
+    position: absolute;
+width: 14px;
+height: 13.96px;
+left: 682.46px;
+top: 2737.31px;
+}
+.plusic-img3{
+    position: absolute;
+width: 14px;
+height: 13.96px;
+left: 1098.93px;
+top: 2737.31px;
+}
+.play-img{
+    position: absolute;
+width: 590.7px;
+height: 390.36px;
+left: 191.4px;
+top: 2951.44px;
+}
+.play-zogolovoc{
+    position: absolute;
+width: 485.96px;
+height: 122px;
+left: 883.07px;
+top: 2980.12px;
+font-family: Poppins;
+font-style: normal;
+font-weight: bold;
+font-size: 51px;
+line-height: 120%;
+color: #01010D;
+}
+.play-text{
+    position: absolute;
+width: 440.37px;
+height: 72px;
+left: 882.35px;
+top: 3127.12px;
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 150%;
+color: #01010D;
+}
+.play-button{
+    position: absolute;
+width: 29.79px;
+height: 29.79px;
+left: 911.18px;
+top: 3266.22px;
+background: #CFCFCF;
+border: 1px solid #E5E5E5;
+border-radius: 25px;
+}
+.play-button1{
+    position: absolute;
+width: 90px;
+height: 24px;
+left: 954.12px;
+top: 3269.12px;
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 24px;
+text-transform: uppercase;
+color: #1617DB;
+}
+.play-prass{
+    position: absolute;
+width: 14.12px;
+height: 14.12px;
+left: 920px;
+top: 3274.06px;
+transform: rotate(1deg);
+
+}
+.border-img{
+    position: absolute;
+width: 186px;
+height: 64px;
+left: 883.07px;
+top: 3249.12px;
+}
+.man-img{
+    position: absolute;
+width: 703.06px;
+height: 255.83px;
+left: 233.55px;
+top: 3507.82px;
+}
+.footer-img{
+    position: absolute;
+width: 1600px;
+height: 365.66px;
+left: 0px;
+top: 3926.34px;
+}
+.button-treugol{
+    position: absolute;
+width: 40.2px;
+height: 40.2px;
+left: 480px;
+top: 3137.23px;
+
+}
